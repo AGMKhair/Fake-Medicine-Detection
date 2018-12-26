@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".AddProductInfo">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="183dp"
+        android:layout_height="167dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/icon" />
+
+    <TextView
+        android:id="@+id/bar_Code"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:scaleX="2"
+        android:scaleY="2"
+        android:text="572247730762"
+        android:textAlignment="center"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textCursorDrawable="@android:color/black"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/product_name"
+        android:textCursorDrawable="@android:color/black"
+        android:gravity="center"
+        android:hint="Product Name"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="208dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/country_show"
+        android:layout_width="202dp"
+        android:layout_height="34dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="Bangladesh"
+        android:textAlignment="center"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textCursorDrawable="@android:color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/company_show"
+        android:layout_width="199dp"
+        android:layout_height="34dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:text="Beximco"
+        android:textAlignment="center"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textCursorDrawable="@android:color/black"
+        android:textStyle="bold" />
+
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/add_empdate"
+            android:layout_width="207dp"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:layout_margin="5dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+
+            android:background="@color/button_color"
+            android:text="Add MFGDATE" />
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/show_emp_date"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+       <Button
+           android:id="@+id/add_exp_date"
+           android:layout_width="207dp"
+           android:layout_height="wrap_content"
+           android:layout_centerHorizontal="true"
+           android:textColor="@color/white"
+
+           android:layout_gravity="center"
+           android:padding="15dp"
+           android:layout_margin="5dp"
+           android:background="@color/button_color"
+           android:text="Add ExpDate" />
+
+       <TextView
+           android:visibility="gone"
+           android:id="@+id/show_exp_date"
+           android:layout_centerHorizontal="true"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+
+   </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/add_material"
+            android:layout_width="208dp"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:padding="15dp"
+            android:textAlignment="center"
+            android:hint="Description"
+             />
+
+    <!--    <EditText
+            android:id="@+id/show_material"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:visibility="gone" />
+    -->
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="206dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:textColor="@color/white"
+
+        android:background="@color/button_color"
+        android:padding="15dp"
+        android:text="Save" />
+
+
+
+</LinearLayout>

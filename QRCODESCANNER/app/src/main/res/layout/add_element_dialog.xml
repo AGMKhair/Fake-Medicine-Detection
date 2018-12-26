@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ListView
+        android:layout_above="@+id/bottom_section"
+        android:id="@+id/list_view_with_checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ListView>
+
+    <LinearLayout
+       android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:id="@+id/bottom_section"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/check_all"
+            android:text="check All"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/remove_check"
+            android:text="Remove Check"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

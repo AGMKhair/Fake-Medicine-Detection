@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">FakeMedicine Detection</string>
+    <string name="already_sell_this_product">Already Sell This Product</string>
+    <string name="selles_date">Selles Date :</string>
+    <string name="company_name">Company Name :</string>
+</resources>

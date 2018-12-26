@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape android:useLevel="true" android:shape="oval">
+
+            <corners android:radius="40dp" >
+
+            </corners>
+
+<stroke android:dashWidth="4dp" android:color="@color/colorPrimary" android:width="20sp" android:dashGap="4dp">
+
+
+</stroke>
+
+
+
+            <solid android:color="@color/button_color" >
+
+            </solid>
+
+         <!--   <gradient android:startColor="@color/button_color"
+    android:centerColor="@color/button_color"
+    android:endColor="@color/button_color"
+    >
+
+
+
+</gradient>
+-->
+        </shape>
+
+    </item>
+   <!-- <item>
+        <shape android:shape="rectangle" android:innerRadiusRatio="4dp">
+
+
+        </shape>
+
+        <scale android:scaleHeight="@android:"
+    </item>-->
+</selector>

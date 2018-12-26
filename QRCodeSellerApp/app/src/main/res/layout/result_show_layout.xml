@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2873F9"
+
+    >
+
+    <!--
+    <LinearLayout
+        android:layout_width="w"
+        android:layout_height="">
+    -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="5dp">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+
+                android:id="@+id/middle_Section_driver"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:orientation="horizontal"
+                android:textAlignment="center"
+                android:weightSum="2"
+                tools:ignore="DuplicateIds">
+
+
+                <TextView
+
+                    android:id="@+id/Driver_name_textview"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/logo"
+                    android:layout_centerHorizontal="true"
+                    android:layout_weight="1"
+                    android:gravity="start"
+                    android:padding="2dp"
+                    android:text="Product Name : "
+                    android:textAlignment="textStart"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp" />
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"></ImageView>
+
+                    <TextView
+
+                        android:id="@+id/product_name"
+                        android:layout_width="260dp"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:background="@android:color/transparent"
+                        android:ellipsize="middle"
+                        android:filterTouchesWhenObscured="true"
+                        android:gravity="center"
+                        android:hint=" Namp "
+                        android:paddingBottom="0dp"
+                        android:textColor="@android:color/black"
+                        android:textColorHint="#55ffffff"
+                        android:textCursorDrawable="@android:color/black"
+                        android:textSize="15dp" />
+
+                </RelativeLayout>
+
+                <!--<EditText
+                    android:id="@+id/driver_editText_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/edit_text_background"
+                    android:padding="2dp" />-->
+
+
+                <!--       <EditText
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:text="@string/app_name" />-->
+
+            </LinearLayout>
+            <LinearLayout
+
+                android:id="@+id/middle_Section_driver"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:orientation="horizontal"
+                android:textAlignment="center"
+                android:weightSum="2"
+                tools:ignore="DuplicateIds">
+
+
+                <TextView
+
+                    android:id="@+id/Driver_name_textvie"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_weight="1"
+                    android:gravity="start"
+                    android:padding="2dp"
+                    android:text="Mfg. Date : "
+                    android:textAlignment="textStart"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp" />
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp">
+
+                    </ImageView>
+
+                    <TextView
+
+                        android:id="@+id/product_mate"
+                        android:layout_width="260dp"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:background="@android:color/transparent"
+                        android:ellipsize="middle"
+                        android:filterTouchesWhenObscured="true"
+                        android:gravity="center"
+                        android:hint="20-09-2018"
+                        android:inputType="text"
+                        android:paddingBottom="0dp"
+                        android:textColor="@android:color/black"
+                        android:textColorHint="#55ffffff"
+                        android:textCursorDrawable="@android:color/black"
+                        android:textSize="15dp" />
+
+                </RelativeLayout>
+
+                <!--<EditText
+                    android:id="@+id/driver_editText_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/edit_text_background"
+                    android:padding="2dp" />-->
+
+
+                <!--       <EditText
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:text="@string/app_name" />-->
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/middle_Section_driver_Nid"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:orientation="horizontal"
+                android:textAlignment="center"
+                android:weightSum="2">
+
+                <TextView
+
+                    android:id="@+id/Driver_name_textview_Nid"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/logo"
+                    android:layout_centerHorizontal="true"
+                    android:layout_weight="1"
+                    android:gravity="start"
+                    android:padding="2dp"
+                    android:text="Exp Date : "
+                    android:textAlignment="textStart"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp" />
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp">
+
+                    </ImageView>
+
+                    <TextView
+
+                        android:id="@+id/emi"
+
+                        android:layout_width="360dp"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:background="@android:color/transparent"
+                        android:ellipsize="middle"
+                        android:filterTouchesWhenObscured="true"
+                        android:gravity="center"
+                        android:hint="20-09-2019"
+                        android:inputType="text"
+                        android:paddingBottom="0dp"
+                        android:textColor="@android:color/black"
+                        android:textColorHint="#55ffffff"
+                        android:textCursorDrawable="@android:color/black"
+                        android:textSize="15dp" />
+
+                </RelativeLayout>
+                <!--       <EditText
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:text="@string/app_name" />-->
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/middle_Section_driver_phone"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:orientation="horizontal"
+                android:textAlignment="center"
+                android:weightSum="2">
+
+                <TextView
+
+                    android:id="@+id/Driver_phone_textview"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/logo"
+                    android:layout_centerHorizontal="true"
+                    android:layout_weight="1"
+                    android:gravity="start"
+                    android:padding="2dp"
+                    android:text="Material : "
+                    android:textAlignment="textStart"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp" />
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+/>
+                    <TextView
+
+                        android:id="@+id/phne"
+
+                        android:layout_width="360dp"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:background="@android:color/transparent"
+                        android:ellipsize="middle"
+                        android:filterTouchesWhenObscured="true"
+                        android:gravity="center"
+                        android:hint="perasitamol , H2o"
+                        android:inputType="text"
+                        android:paddingBottom="0dp"
+                        android:textCursorDrawable="@android:color/black"
+                        android:textColor="@android:color/black"
+                        android:textColorHint="#55ffffff"
+
+                        android:textSize="15dp" />
+
+                </RelativeLayout>
+                <!--       <EditText
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:text="@string/app_name" />-->
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/middle_Section_driver_Address"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:orientation="horizontal"
+                android:textAlignment="center"
+                android:weightSum="2">
+
+                <TextView
+
+                    android:id="@+id/driver_address_textview"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_weight="1"
+                    android:gravity="start"
+                    android:padding="2dp"
+                    android:text="I.P.Tk : "
+                    android:textAlignment="textStart"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp" />
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+/>
+                    <TextView
+
+                        android:id="@+id/adress"
+
+                        android:layout_width="360dp"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:filterTouchesWhenObscured="true"
+                        android:gravity="center"
+                        android:hint="200tk"
+                        android:inputType="text"
+                        android:paddingBottom="0dp"
+                        android:textColor="@android:color/black"
+                        android:textColorHint="#55ffffff"
+                        android:textCursorDrawable="@android:color/black"
+                        android:textSize="15dp" />
+
+                </RelativeLayout>
+
+                <!--       <EditText
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:text="@string/app_name" />-->
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>
